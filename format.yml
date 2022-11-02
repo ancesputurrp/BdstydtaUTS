@@ -26,10 +26,6 @@ jobs:
 
       - name: 📥 Install deps
         run: yarn --frozen-lockfile
-
-      - name: 🔗 Convert Docs links to references
-        run: node scripts/markdown-references.mjs
-
       - name: 👔 Format
         run: yarn format
 
